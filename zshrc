@@ -16,6 +16,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$PATH:~/.local/bin
 export PATH=$PATH:~/.emacs.d/bin
 export PATH=$PATH:~/Tools/glslang/build/install/bin
+export PATH=$PATH:~/Tools/ripgrep/target/release
 
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
