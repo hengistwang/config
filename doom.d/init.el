@@ -22,6 +22,7 @@
        file-templates    ; auto-snippets for empty files
        fold              ; (nigh) universal code folding
        snippets          ; my elves. They type so I don't have to
+       format
 
        :emacs
        dired             ; making dired pretty [functional]
@@ -30,6 +31,7 @@
        vc                ; version-control and Emacs, sitting in a tree
 
        :term
+       eshell
 
        :checkers
        syntax              ; tasing you for every semicolon you forget
@@ -42,8 +44,7 @@
        magit             ; a git porcelain for Emacs
 
        :os
-       (:if IS-MAC macos)  ; improve compatibility with macOS
-       ;;tty               ; improve the terminal Emacs experience
+       tty               ; improve the terminal Emacs experience
 
        :lang
        (cc +lsp)         ; C > C++ == 1
@@ -51,16 +52,10 @@
        emacs-lisp        ; drown in parentheses
        (go +lsp)         ; the hipster dialect
        json              ; At least it ain't XML
-       javascript        ; all(hope(abandon(ye(who(enter(here))))))
-       latex             ; writing papers in Emacs has never been so fun
-       lua               ; one-based indices? one-based indices
        markdown          ; writing docs for people to ignore
-       org                 ; organize your plain life in plain text
+       (org +hugo +roam2)                ; organize your plain life in plain text
        python            ; beautiful is better than ugly
-       qt                ; the 'cutest' gui framework ever
        (ruby +rails)     ; 1.step {|i| p "Ruby is #{i.even? ? 'love' : 'life'}"}
-       rust              ; Fe2O3.unwrap().unwrap().unwrap().unwrap()
-       (scheme +guile)   ; a fully conniving family of lisps
        sh                ; she sells {ba,z,fi}sh shells on the C xor
        yaml              ; JSON, but readable
 
