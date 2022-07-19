@@ -76,9 +76,6 @@
 ;; they are implemented.
 (setq-default evil-escape-key-sequence "jk")
 (add-hook 'window-setup-hook #'toggle-frame-maximized)
-;(add-hook 'window-setup-hook #'toggle-frame-fullscreen)
+;;(add-hook 'window-setup-hook #'toggle-frame-fullscreen)
 (setup-esh-help-eldoc)
-(use-package shrink-path
-  :ensure t
-  :demand t)
 (eshell-did-you-mean-setup)
