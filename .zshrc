@@ -5,7 +5,14 @@ ZSH_THEME="ys"
 zstyle ':omz:update' mode auto
 zstyle ':omz:update' frequency 14
 
-plugins=(git git-open zsh-autosuggestions zsh-syntax-highlighting zsh-history-substring-search)
+plugins=(
+	git
+	git-open
+	zsh-autosuggestions
+	zsh-syntax-highlighting
+	zsh-history-substring-search
+	poetry
+)
 
 fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
 
@@ -15,6 +22,7 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH=$PATH:~/.local/bin
 export PATH=$PATH:~/.emacs.d/bin
+export PATH=$PATH:~/.poetry/bin
 export PATH=$PATH:~/Tools/glslang/build/install/bin
 export PATH=$PATH:~/Tools/ripgrep/target/release
 
@@ -33,3 +41,4 @@ noproxy () {
   unset all_proxy
   echo "All Proxy off"
 }
+
