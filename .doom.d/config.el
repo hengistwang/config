@@ -76,3 +76,6 @@
 ;; they are implemented.
 (setq-default evil-escape-key-sequence "jk")
 (add-hook 'window-setup-hook #'toggle-frame-maximized)
+(setq url-proxy-services '(("http" . "127.0.0.1:7890")
+                           ("https" . "127.0.0.1:7890")
+                           ("socks5" . "127.0.0.1:7890")))
