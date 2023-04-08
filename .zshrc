@@ -8,6 +8,7 @@ zstyle ':omz:update' frequency 14
 plugins=(
 	git
 	git-open
+	extract
 	zsh-autosuggestions
 	zsh-syntax-highlighting
 	zsh-history-substring-search
@@ -21,7 +22,7 @@ fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
 source $ZSH/oh-my-zsh.sh
 
 export PATH=$PATH:~/.local/bin
-export PATH=$PATH:~/.emacs.d/bin
+export PATH=$PATH:~/.config/emacs/bin
 export PATH=$PATH:~/.poetry/bin
 export PATH=$PATH:~/Tools/glslang/build/install/bin
 export PATH=$PATH:~/Tools/ripgrep/target/release
@@ -42,3 +43,6 @@ noproxy () {
   echo "All Proxy off"
 }
 
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
