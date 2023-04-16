@@ -13,6 +13,13 @@ plugins=(
 	zsh-syntax-highlighting
 	zsh-history-substring-search
 	poetry
+	sudo
+	web-search
+	copypath
+	copyfile
+	copybuffer
+	dirhistory
+	history
 )
 
 fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
