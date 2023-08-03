@@ -81,7 +81,7 @@
 
        :checkers
        (syntax +childframe)             ; tasing you for every semicolon you forget
-       (spell +aspell +everywhere)  ; tasing you for misspelling mispelling
+       (spell +aspell)  ; tasing you for misspelling mispelling
        grammar           ; tasing grammar mistake every you make
 
        :tools
@@ -95,7 +95,7 @@
        ;;(eval +overlay)     ; run code, run (also, repls)
        ;;gist              ; interacting with github gists
        (lookup +dictionary +docsets +offline)              ; navigate your code and its documentation
-       (lsp +peek)               ; M-x vscode
+       (lsp +peek +eglot)               ; M-x vscode
        (magit +forge)             ; a git porcelain for Emacs
        ;;make              ; run make tasks from Emacs
        ;;pass              ; password manager for nerds
@@ -137,7 +137,7 @@
        ;;gdscript          ; the language you waited for
        (go +lsp +tree-sitter)         ; the hipster dialect
        ;;(graphql +lsp)    ; Give queries a REST
-       (haskell +lsp)    ; a language that's lazier than I am
+       (haskell +lsp +tree-sitter)    ; a language that's lazier than I am
        ;;hy                ; readability of scheme w/ speed of python
        ;;idris             ; a language you can depend on
        (json +lsp)              ; At least it ain't XML
@@ -150,14 +150,14 @@
        ;;ledger            ; be audit you can be
        (lua +lsp)               ; one-based indices? one-based indices
        (markdown +grip)          ; writing docs for people to ignore
-       nim               ; python + lisp at the speed of c
+       ;;nim               ; python + lisp at the speed of c
        ;;nix               ; I hereby declare "nix geht mehr!"
        ;;ocaml             ; an objective camel
        (org +hugo +roam2)               ; organize your plain life in plain text
        ;;php               ; perl's insecure younger brother
        ;;plantuml          ; diagrams for confusing people more
        ;;purescript        ; javascript, but functional
-       (python +lsp +pyright +pyenv +poetry +cython)           ; beautiful is better than ugly
+       (python +lsp +pyright +cython +pyenv +poetry)           ; beautiful is better than ugly
        ;;qt                ; the 'cutest' gui framework ever
        ;;racket            ; a DSL for DSLs
        ;;raku              ; the artist formerly known as perl6
