@@ -74,9 +74,7 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+
 (setq-default evil-escape-key-sequence "jk")
 (add-hook 'window-setup-hook #'toggle-frame-maximized)
-(setq url-proxy-services '(("http" . "127.0.0.1:7890")
-                           ("https" . "127.0.0.1:7890")
-                           ("socks5" . "127.0.0.1:7890")))
 (setq langtool-language-tool-jar "~/Tools/LanguageTool/languagetool-commandline.jar")
