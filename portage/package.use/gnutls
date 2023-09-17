@@ -1,0 +1,7 @@
+# required by app-crypt/swtpm-0.8.1-r1::gentoo[gnutls]
+# required by app-emulation/libvirt-9.6.0::gentoo[qemu]
+# required by app-emulation/libvirt-glib-4.0.0::gentoo
+# required by app-emulation/virt-manager-4.1.0::gentoo[-test]
+# required by @selected
+# required by @world (argument)
+>=net-libs/gnutls-3.8.1-r1 tools pkcs11

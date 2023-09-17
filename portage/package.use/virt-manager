@@ -1,0 +1,8 @@
+# required by app-emulation/virt-manager-4.1.0::gentoo[gui,-test]
+# required by app-emulation/virt-manager (argument)
+>=net-misc/spice-gtk-0.42-r3 usbredir
+# required by app-emulation/libvirt-9.6.0::gentoo[virt-network]
+# required by app-emulation/libvirt-glib-4.0.0::gentoo
+# required by app-emulation/virt-manager-4.1.0::gentoo[-test]
+# required by app-emulation/virt-manager (argument)
+>=net-dns/dnsmasq-2.89 script

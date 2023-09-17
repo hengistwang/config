@@ -1,0 +1,4 @@
+app-containers/docker btrfs
+# required by app-containers/docker-24.0.5::gentoo
+# required by app-containers/docker (argument)
+>=app-containers/containerd-1.7.2 btrfs
