@@ -166,7 +166,7 @@
        ;;(ruby +rails)
        rust
        ;;scala
-       ;;(scheme +guile)
+       (scheme +guile)
        (sh +lsp)
        ;;sml
        ;;solidity
