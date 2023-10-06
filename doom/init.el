@@ -164,9 +164,9 @@
        ;;rest
        ;;rst
        ;;(ruby +rails)
-       rust
+       (rust +lsp +tree-sitter)
        ;;scala
-       (scheme +guile)
+       ;;(scheme +guile)
        (sh +lsp)
        ;;sml
        ;;solidity
