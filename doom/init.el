@@ -74,7 +74,7 @@
        vc
 
        :term
-       ;;eshell
+       eshell
        ;;shell
        ;;term
        ;;vterm
@@ -158,7 +158,7 @@
        ;;plantuml
        ;;purescript
        (python +lsp +pyright +cython +pyenv +poetry)
-       ;;qt
+       qt
        ;;racket
        ;;raku
        ;;rest

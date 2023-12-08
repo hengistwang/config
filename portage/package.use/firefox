@@ -1,3 +1,5 @@
 # required by www-client/firefox-115.0.2::gentoo[system-libvpx]
 # required by www-client/firefox (argument)
 >=media-libs/libvpx-1.13.0 postproc
+# vaapi
+media-libs/gst-plugins-bad vaapi

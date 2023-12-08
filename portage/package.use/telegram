@@ -1,3 +1,6 @@
-# required by net-im/telegram-desktop-4.8.4-r2::gentoo
-# required by net-im/telegram-desktop (argument)
->=media-video/ffmpeg-6.0-r6 opus vpx
+# required by net-im/telegram-desktop-4.10.3::gentoo[-webkit,qt6,wayland]
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtwayland-6.5.3 compositor
+net-im/telegram-desktop qt6 qt6-imageformats
+app-i18n/fcitx-qt qt6

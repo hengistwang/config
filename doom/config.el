@@ -78,3 +78,5 @@
 (setq-default evil-escape-key-sequence "jk")
 (add-hook 'window-setup-hook #'toggle-frame-maximized)
 (setq langtool-language-tool-jar "~/Tools/LanguageTool/languagetool-commandline.jar")
+(after! lsp-haskell
+  (setq lsp-haskell-formatting-provider "brittany"))
