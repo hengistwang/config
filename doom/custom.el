@@ -4,6 +4,8 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(delete-selection-mode nil)
+ '(magit-todos-insert-after '(bottom) nil nil "Changed by setter of obsolete option `magit-todos-insert-at'")
+ '(package-selected-packages '(citre))
  '(warning-suppress-types '((doom-first-buffer-hook) (doom-first-buffer-hook))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

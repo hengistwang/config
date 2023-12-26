@@ -95,7 +95,7 @@
        ;;(eval +overlay)
        ;;gist
        (lookup +dictionary +docsets +offline)
-       (lsp +eglot)
+       (lsp +peek)
        (magit +forge)
        ;;make
        ;;pass
