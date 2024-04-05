@@ -1,0 +1,9 @@
+app-crypt/qca qt6
+sys-auth/polkit-qt qt6
+net-libs/accounts-qt qt6
+net-libs/accounts-qml qt6
+net-libs/signond qt6
+app-text/poppler qt6
+media-libs/phonon qt6
+net-libs/kdsoap qt6
+net-libs/signon-oauth2 qt6

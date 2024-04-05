@@ -10,3 +10,6 @@ if test -f /usr/share/autojump/autojump.fish
     source /usr/share/autojump/autojump.fish
 end
 
+fish_vi_key_bindings
+set fish_cursor_insert block
+

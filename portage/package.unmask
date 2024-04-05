@@ -1,0 +1,14 @@
+kde-plasma/*
+kde-apps/*
+kde-frameworks/*
+kde-misc/*
+=sys-auth/polkit-qt-0.200.0
+=net-libs/kdsoap-ws-discovery-client-0.4.0
+=net-libs/signon-oauth2-0.25_p20210102
+=net-libs/kdsoap-2.2.0
+=net-libs/accounts-qt-1.16_p20220803
+=net-libs/accounts-qml-0.7_p20231028
+=dev-libs/kirigami-addons-1.0.1
+=media-libs/phonon-4.12.0-r1
+=net-libs/signond-8.61-r100
+=gui-apps/xwaylandvideobridge-0.4.0

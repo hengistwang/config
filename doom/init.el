@@ -159,7 +159,7 @@
        ;;purescript
        (python +lsp +pyright +cython +pyenv +poetry)
        qt
-       ;;racket
+       (racket +lsp +xp)
        ;;raku
        ;;rest
        ;;rst
