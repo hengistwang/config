@@ -90,7 +90,7 @@
        ;;(debugger +lsp)
        ;;direnv
        ;;docker
-       editorconfig
+       ;;editorconfig
        ;;ein
        ;;(eval +overlay)
        ;;gist
@@ -135,7 +135,7 @@
        ;;fsharp
        ;;fstar
        ;;gdscript
-       (go +lsp +tree-sitter)
+       ;;(go +lsp +tree-sitter)
        ;;(graphql +lsp)
        (haskell +lsp +tree-sitter)
        ;;hy
@@ -157,9 +157,9 @@
        ;;php
        ;;plantuml
        ;;purescript
-       (python +lsp +pyright +cython +pyenv +poetry)
+       ;;(python +lsp +pyright +cython +tree-sitter)
        qt
-       (racket +lsp +xp)
+       ;;(racket +lsp +xp)
        ;;raku
        ;;rest
        ;;rst
