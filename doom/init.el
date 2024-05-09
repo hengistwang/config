@@ -158,7 +158,7 @@
        ;;plantuml
        ;;purescript
        ;;(python +lsp +pyright +cython +tree-sitter)
-       qt
+       ;;qt
        ;;(racket +lsp +xp)
        ;;raku
        ;;rest
