@@ -124,7 +124,7 @@
        ;;data
        ;;(dart +flutter)
        ;;dhall
-       (elixir +lsp)
+       ;;(elixir +lsp)
        ;;elm
        emacs-lisp
        ;;erlang
@@ -140,20 +140,20 @@
        (haskell +lsp +tree-sitter)
        ;;hy
        ;;idris
-       (json +lsp)
+       ;;(json +lsp)
        ;;(java +lsp)
-       (javascript +lsp)
+       ;;(javascript +lsp)
        ;;julia
        ;;kotlin
-       (latex +latexmk +cdlatex +lsp +fold)
+       ;;(latex +latexmk +cdlatex +lsp +fold)
        ;;lean
        ;;ledger
-       (lua +lsp)
-       (markdown +grip)
+       ;;(lua +lsp)
+       ;;(markdown +grip)
        ;;nim
        ;;nix
        ;;ocaml
-       (org +hugo +roam2)
+       ;;(org +hugo +roam2)
        ;;php
        ;;plantuml
        ;;purescript
@@ -167,13 +167,13 @@
        (rust +lsp +tree-sitter)
        ;;scala
        ;;(scheme +guile)
-       (sh +lsp)
+       ;;(sh +lsp)
        ;;sml
        ;;solidity
        ;;swift
        ;;terra
        ;;web
-       (yaml +lsp)
+       ;;(yaml +lsp)
        ;;zig
 
        :email
