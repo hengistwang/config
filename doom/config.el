@@ -80,3 +80,4 @@
 (setq langtool-language-tool-jar "~/Tools/LanguageTool/languagetool-commandline.jar")
 (after! lsp-haskell
   (setq lsp-haskell-formatting-provider "ormolu"))
+(setq doom-font (font-spec :family "IBM Plex Mono" :size 11.0))
