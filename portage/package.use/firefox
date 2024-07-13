@@ -1,2 +1,3 @@
 media-libs/libvpx postproc
 media-libs/gst-plugins-bad vaapi
+www-client/firefox LLVM_SLOT: -17 18
