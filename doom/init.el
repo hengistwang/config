@@ -21,7 +21,7 @@
        ;;layout
 
        :completion
-       (company +childframe)
+       (corfu +icons +orderless +dabbrev)
        ;;helm
        ;;ido
        ;;ivy
@@ -90,12 +90,12 @@
        ;;(debugger +lsp)
        ;;direnv
        ;;docker
-       ;;editorconfig
+       editorconfig
        ;;ein
        ;;(eval +overlay)
        ;;gist
        (lookup +dictionary +docsets +offline)
-       (lsp +peek)
+       (lsp +eglot)
        (magit +forge)
        ;;make
        ;;pass
