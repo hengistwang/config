@@ -37,7 +37,7 @@
        ;;hydra
        indent-guides
        ligatures
-       minimap
+       ;;minimap
        modeline
        nav-flash
        ;;neotree
@@ -90,7 +90,7 @@
        ;;(debugger +lsp)
        ;;direnv
        ;;docker
-       editorconfig
+       ;;editorconfig
        ;;ein
        ;;(eval +overlay)
        ;;gist
@@ -135,7 +135,7 @@
        ;;fsharp
        ;;fstar
        ;;gdscript
-       ;;(go +lsp +tree-sitter)
+       (go +lsp +tree-sitter)
        ;;(graphql +lsp)
        (haskell +lsp +tree-sitter)
        ;;hy
