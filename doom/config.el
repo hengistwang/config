@@ -81,14 +81,6 @@
 (setq langtool-language-tool-jar "~/Tools/LanguageTool/languagetool-commandline.jar")
 (after! lsp-haskell
   (setq lsp-haskell-formatting-provider "ormolu"))
-(after! lsp-clangd
-  (setq lsp-clients-clangd-args
-        '("-j=16"
-          "--background-index"
-          "--clang-tidy"
-          "--completion-style=detailed"
-          "--header-insertion=never"
-          "--header-insertion-decorators=0"))
-  (set-lsp-priority! 'clangd 2))
 (after! corfu
   (setq corfu-preselect 'first))
+(set-eglot-client! 'cc-mode '("clangd" "-j=16" "--background-index" "--clang-tidy" "--completion-style=detailed" "--header-insertion=never" "--header-insertion-decorators=0"))
