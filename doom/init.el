@@ -44,7 +44,7 @@
        ophints
        (popup +defaults)
        ;;tabs
-       treemacs
+       ;;treemacs
        unicode
        vc-gutter
        vi-tilde-fringe
@@ -67,7 +67,7 @@
        ;;word-wrap
 
        :emacs
-       (dired +icons)
+       (dired +icons +dirvish)
        electric
        ;;ibuffer
        (undo +tree)
@@ -153,7 +153,7 @@
        ;;nim
        ;;nix
        ;;ocaml
-       ;;(org +hugo +roam2)
+       (org +hugo +roam2)
        ;;php
        ;;plantuml
        ;;purescript
@@ -167,7 +167,7 @@
        (rust +lsp +tree-sitter)
        ;;scala
        ;;(scheme +guile)
-       ;;(sh +lsp)
+       (sh +lsp +fish +tree-sitter)
        ;;sml
        ;;solidity
        ;;swift
