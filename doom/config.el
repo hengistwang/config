@@ -83,4 +83,9 @@
   (setq lsp-haskell-formatting-provider "ormolu"))
 (after! corfu
   (setq corfu-preselect 'first))
-(set-eglot-client! 'cc-mode '("clangd" "-j=16" "--background-index" "--clang-tidy" "--completion-style=detailed" "--header-insertion=never" "--header-insertion-decorators=0"))
+(set-eglot-client! 'cc-mode '("clangd" "-j=16"
+                              "--background-index"
+                              "--clang-tidy"
+                              "--completion-style=detailed"
+                              "--header-insertion=never"
+                              "--header-insertion-decorators=0"))

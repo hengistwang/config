@@ -1,9 +1,0 @@
-x11-base/xwayland libei
-# required by net-misc/curl-8.9.1::gentoo[quic,curl_quic_openssl]
-# required by media-sound/spotify-1.2.42::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-libs/openssl-3.3.1-r1 quic
-# required by www-client/firefox-128.0.3::gentoo[system-libvpx]
-# required by firefox (argument)
->=media-libs/libvpx-1.14.1 postproc
