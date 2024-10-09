@@ -1,0 +1,42 @@
+app-containers/docker btrfs
+app-containers/containerd btrfs
+app-editors/emacs dynamic-loading jit json harfbuzz tree-sitter libxml2 sqlite -X
+media-video/ffmpeg opus vpx vaapi
+www-client/firefox -X hwaccel
+dev-libs/libpcre2 pcre32
+sys-devel/gcc jit
+app-text/ghostscript-gpl -l10n_zh-CN
+net-libs/gnutls tools pkcs11
+www-client/google-chrome qt6
+sys-kernel/installkernel systemd systemd-boot
+kde-apps/kio-extras samba
+x11-libs/libdrm video_cards_radeon
+media-libs/libsndfile minimal
+sys-kernel/linux-firmware initramfs
+media-libs/mesa vaapi
+media-video/mpv vaapi
+media-fonts/noto cjk
+kde-apps/okular djvu epub markdown mobi speech
+media-libs/phonon minimal
+kde-plasma/plasma-firewall -ufw firewalld
+dev-lang/python tk
+app-emulation/qemu spice virgl usbredir
+dev-qt/qttools designer
+app-i18n/librime octagram
+dev-lang/rust rust-analyzer rust-src rustfmt clippy system-llvm
+net-fs/samba readline cups pam
+x11-misc/sddm -X qt6
+dev-libs/libdbusmenu gtk3
+sys-apps/systemd boot
+dev-qt/qtwayland compositor
+net-im/telegram-desktop qt6 qt6-imageformats
+app-i18n/fcitx-qt qt6
+app-text/texlive-core cjk xetex
+mail-client/thunderbird -X hwaccel
+net-misc/spice-gtk usbredir
+net-dns/dnsmasq script
+app-editors/vscode egl
+net-analyzer/wireshark http2 http3 lua qt6 lua_single_target_lua5-4
+x11-base/xwayland libei
+dev-libs/openssl quic
+media-libs/libvpx postproc
