@@ -40,3 +40,6 @@ net-analyzer/wireshark http2 http3 lua qt6 lua_single_target_lua5-4
 x11-base/xwayland libei
 dev-libs/openssl quic
 media-libs/libvpx postproc
+sys-kernel/installkernel dracut
+net-libs/nodejs inspector
+virtual/rust profiler
