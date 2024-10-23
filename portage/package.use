@@ -43,3 +43,4 @@ media-libs/libvpx postproc
 sys-kernel/installkernel dracut
 net-libs/nodejs inspector
 virtual/rust profiler
+x11-base/xorg-server -xorg minimal
