@@ -59,9 +59,3 @@ net-libs/gnutls tools pkcs11
 media-video/ffmpeg opus vpx vaapi
 x11-libs/libdrm video_cards_radeon
 app-text/texlive-core cjk
-
-dev-qt/qttools designer
-net-fs/samba readline cups pam
-net-misc/spice-gtk usbredir
-media-libs/libvpx postproc
-kde-plasma/plasma-firewall -ufw firewalld
