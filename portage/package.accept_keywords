@@ -1,2 +1,3 @@
-dev-util/sh ~amd64
-media-video/obs-studio ~amd64
+dev-util/sh
+media-video/obs-studio
+app-i18n/opencc
