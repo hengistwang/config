@@ -95,7 +95,7 @@
        ;;(eval +overlay)
        ;;gist
        (lookup +dictionary +docsets +offline)
-       (lsp +eglot)
+       (lsp +peek)
        (magit +forge)
        ;;make
        ;;pass
@@ -164,7 +164,7 @@
        ;;rest
        ;;rst
        ;;(ruby +rails)
-       ;;(rust +lsp +tree-sitter)
+       (rust +lsp +tree-sitter)
        ;;scala
        ;;(scheme +guile)
        (sh +lsp +fish +tree-sitter)
