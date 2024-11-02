@@ -29,9 +29,7 @@ net-im/telegram-desktop qt6 qt6-imageformats
 # keepassxc
 app-admin/keepassxc autotype
 
-
 media-video/ffmpeg opus vpx vaapi
-dev-libs/libpcre2 pcre32
 app-text/ghostscript-gpl -l10n_zh-CN
 net-libs/gnutls tools pkcs11
 www-client/google-chrome qt6
@@ -45,7 +43,6 @@ media-video/mpv vaapi
 media-fonts/noto cjk
 kde-apps/okular djvu epub markdown mobi speech
 kde-plasma/plasma-firewall -ufw firewalld
-dev-lang/python tk
 app-emulation/qemu spice virgl usbredir
 dev-qt/qttools designer
 app-i18n/librime octagram
@@ -63,4 +60,3 @@ media-libs/libvpx postproc
 sys-kernel/installkernel dracut
 net-libs/nodejs inspector
 virtual/rust profiler
-
