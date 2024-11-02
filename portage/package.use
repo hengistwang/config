@@ -59,3 +59,4 @@ net-libs/gnutls tools pkcs11
 media-video/ffmpeg opus vpx vaapi
 x11-libs/libdrm video_cards_radeon
 app-text/texlive-core cjk
+media-libs/libvpx postproc
