@@ -13,3 +13,4 @@ end
 fish_vi_key_bindings
 set fish_cursor_insert block
 
+stack --fish-completion-script stack | source
