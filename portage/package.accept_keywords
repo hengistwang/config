@@ -1,3 +1,16 @@
 dev-util/sh
 media-video/obs-studio
 app-i18n/opencc
+app-editors/emacs
+www-client/firefox
+dev-libs/nss
+app-text/foliate
+sys-kernel/gentoo-kernel-bin
+virtual/dist-kernel
+
+x11-terms/ghostty
+dev-lang/zig-bin
+app-eselect/eselect-zig
+
+net-im/telegram-desktop
+dev-cpp/ms-gsl
