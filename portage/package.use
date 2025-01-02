@@ -3,14 +3,14 @@ app-containers/docker btrfs
 app-containers/containerd btrfs
 
 # emacs
-sys-devel/gcc jit
-app-editors/emacs dynamic-loading jit json harfbuzz tree-sitter libxml2 sqlite -X
+sys-devel/gcc jit lto
+app-editors/emacs dynamic-loading jit json harfbuzz tree-sitter libxml2 sqlite -X (json)
 
 # wireshark
 net-analyzer/wireshark http2 http3 lua lua_single_target_lua5-4
 
 # firefox && thunderbird
-www-client/firefox -X hwaccel
+www-client/firefox -X hwaccel pgo
 mail-client/thunderbird -X hwaccel
 media-libs/mesa vaapi
 
@@ -51,6 +51,12 @@ kde-apps/kio-extras samba
 net-libs/nodejs inspector
 virtual/rust profiler
 
+# theme
+app-i18n/fcitx-configtool kcm
+
+# doas
+app-admin/doas persist
+
 # misc
 app-text/ghostscript-gpl -l10n_zh-CN
 media-libs/libsndfile minimal
@@ -60,3 +66,4 @@ media-video/ffmpeg opus vpx vaapi
 x11-libs/libdrm video_cards_radeon
 app-text/texlive-core cjk
 media-libs/libvpx postproc
+net-misc/spice-gtk usbredir
