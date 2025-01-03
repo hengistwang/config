@@ -80,7 +80,7 @@
        ;;vterm
 
        :checkers
-       (syntax +childframe)
+       (syntax +childframe +flymake +icons)
        (spell +aspell)
        grammar
 

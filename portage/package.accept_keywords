@@ -14,3 +14,5 @@ app-eselect/eselect-zig
 
 net-im/telegram-desktop
 dev-cpp/ms-gsl
+
+app-text/languagetool
