@@ -57,6 +57,9 @@ app-i18n/fcitx-configtool kcm
 # doas
 app-admin/doas persist
 
+# nodejs
+net-libs/nodejs npm
+
 # misc
 app-text/ghostscript-gpl -l10n_zh-CN
 media-libs/libsndfile minimal
@@ -67,3 +70,5 @@ x11-libs/libdrm video_cards_radeon
 app-text/texlive-core cjk
 media-libs/libvpx postproc
 net-misc/spice-gtk usbredir
+media-libs/freetype harfbuzz utils
+
