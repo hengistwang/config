@@ -13,6 +13,8 @@ dev-lang/zig-bin
 app-eselect/eselect-zig
 
 net-im/telegram-desktop
+media-libs/tg_owt
 dev-cpp/ms-gsl
 
 app-text/languagetool
+
