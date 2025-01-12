@@ -153,7 +153,7 @@
        ;;nim
        ;;nix
        ;;ocaml
-       (org +hugo +roam2)
+       (org +hugo +roam2 +pomodoro)
        ;;php
        ;;plantuml
        ;;purescript
