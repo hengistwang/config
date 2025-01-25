@@ -4,7 +4,7 @@ app-containers/containerd btrfs
 
 # emacs
 sys-devel/gcc jit lto
-app-editors/emacs dynamic-loading jit json harfbuzz tree-sitter libxml2 sqlite -X (json)
+app-editors/emacs dynamic-loading jit harfbuzz tree-sitter libxml2 sqlite
 
 # wireshark
 net-analyzer/wireshark http2 http3 lua lua_single_target_lua5-4
