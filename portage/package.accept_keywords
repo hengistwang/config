@@ -1,13 +1,17 @@
 dev-util/sh
 media-video/obs-studio
 app-i18n/opencc
-www-client/firefox
 dev-libs/nss
+www-client/firefox
 app-text/foliate
+dev-lang/spidermonkey
+dev-libs/gjs
 sys-kernel/gentoo-kernel-bin
 virtual/dist-kernel
 
 x11-terms/ghostty
+x11-terms/ghostty-terminfo
+sys-libs/ncurses
 dev-lang/zig-bin
 app-eselect/eselect-zig
 
@@ -17,3 +21,7 @@ dev-cpp/ms-gsl
 
 app-text/languagetool
 
+app-editors/emacs
+app-emacs/emacs-common
+
+app-shells/fish
