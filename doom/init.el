@@ -43,6 +43,7 @@
        ;;neotree
        ophints
        (popup +defaults)
+       (smooth-scroll +interpolate)
        ;;tabs
        ;;treemacs
        unicode

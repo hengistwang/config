@@ -25,3 +25,4 @@ app-editors/emacs
 app-emacs/emacs-common
 
 app-shells/fish
+dev-python/uv
