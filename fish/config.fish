@@ -4,6 +4,8 @@ end
 
 set fish_greeting
 
+starship init fish | source
+
 if test -f /usr/share/autojump/autojump.fish
     source /usr/share/autojump/autojump.fish
 end

@@ -21,6 +21,7 @@
        ;;layout
 
        :completion
+       ;;company           ; the ultimate code completion backend
        (corfu +icons +orderless +dabbrev)
        ;;helm
        ;;ido
@@ -34,7 +35,6 @@
        doom-quit
        ;;(emoji +ascii +github +unicode)
        hl-todo
-       ;;hydra
        indent-guides
        ligatures
        ;;minimap
@@ -57,7 +57,7 @@
        (evil +everywhere)
        file-templates
        fold
-       format
+       (format +lsp)
        ;;god
        ;;lispy
        multiple-cursors
@@ -70,6 +70,7 @@
        :emacs
        (dired +icons +dirvish)
        electric
+       ;;eww               ; the internet is gross
        ;;ibuffer
        (undo +tree)
        vc
@@ -88,29 +89,26 @@
        :tools
        ;;ansible
        ;;biblio
+       ;;collab            ; buffers with friends
        ;;(debugger +lsp)
        ;;direnv
        ;;docker
        ;;editorconfig
        ;;ein
        ;;(eval +overlay)
-       ;;gist
        (lookup +dictionary +docsets +offline)
        (lsp +eglot)
        (magit +forge)
        ;;make
        ;;pass
        ;;pdf
-       ;;prodigy
-       ;;rgb
-       ;;taskrunner
        ;;terraform
        ;;tmux
        tree-sitter
        ;;upload
 
        :os
-       (:if IS-MAC macos)
+       (:if (featurep :system 'macos) macos)  ; improve compatibility with macOS
        ;;tty
 
        :lang
@@ -150,13 +148,14 @@
        ;;lean
        ;;ledger
        ;;(lua +lsp)
-       ;;(markdown +grip)
+       (markdown +grip)
        ;;nim
        ;;nix
        ;;ocaml
        (org +hugo +roam2 +pomodoro)
        ;;php
        ;;plantuml
+       ;;graphviz          ; diagrams for confusing yourself even more
        ;;purescript
        ;;(python +lsp +pyright +cython +tree-sitter)
        ;;qt
@@ -188,7 +187,6 @@
        ;;everywhere
        ;;irc
        ;;(rss +org)
-       ;;twitter
 
        :config
        ;;literate
