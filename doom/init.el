@@ -32,7 +32,7 @@
        ;;deft
        doom
        doom-dashboard
-       doom-quit
+       ;;doom-quit
        ;;(emoji +ascii +github +unicode)
        hl-todo
        indent-guides
@@ -43,7 +43,7 @@
        ;;neotree
        ophints
        (popup +defaults)
-       (smooth-scroll +interpolate)
+       ;;(smooth-scroll +interpolate)
        ;;tabs
        ;;treemacs
        unicode
