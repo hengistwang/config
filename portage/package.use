@@ -3,9 +3,8 @@ app-containers/docker btrfs
 app-containers/containerd btrfs
 
 # emacs
-app-editors/emacs -X
 sys-devel/gcc jit lto
-app-editors/emacs dynamic-loading jit harfbuzz tree-sitter sqlite json
+app-editors/emacs -X gtk dynamic-loading jit harfbuzz tree-sitter sqlite json
 
 # wireshark
 net-analyzer/wireshark http2 http3 lua lua_single_target_lua5-4
@@ -29,9 +28,6 @@ sys-kernel/installkernel systemd systemd-boot dracut
 # telegram-desktop
 net-im/telegram-desktop -X qt6-imageformats
 media-libs/tg_owt -X
-
-# keepassxc
-app-admin/keepassxc -X
 
 # noto fonts
 media-fonts/noto cjk
@@ -72,6 +68,3 @@ app-text/texlive-core cjk
 media-libs/libvpx postproc
 net-misc/spice-gtk usbredir
 media-libs/freetype harfbuzz utils
-
-x11-terms/ghostty -X
-app-misc/fastfetch -X 

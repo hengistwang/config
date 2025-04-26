@@ -4,3 +4,4 @@ fish/fish_variables
 fish/functions/
 portage/make.profile
 portage/savedconfig/
+portage/gnupg/

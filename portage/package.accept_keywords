@@ -21,8 +21,8 @@ dev-cpp/ms-gsl
 
 app-text/languagetool
 
-app-editors/emacs
-app-emacs/emacs-common
-
 app-shells/fish
 dev-python/uv
+
+x11-misc/sddm
+dev-go/golangci-lint
