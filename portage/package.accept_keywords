@@ -1,9 +1,7 @@
 dev-util/sh
 media-video/obs-studio
-app-i18n/opencc
 dev-libs/nss
 www-client/firefox
-app-text/foliate
 dev-lang/spidermonkey
 dev-libs/gjs
 sys-kernel/gentoo-kernel-bin
