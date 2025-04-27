@@ -57,6 +57,9 @@ app-admin/doas persist
 # nodejs
 net-libs/nodejs npm
 
+# -X
+app-misc/fastfetch -X
+app-admin/keepassxc -X
 # misc
 app-text/ghostscript-gpl -l10n_zh-CN
 media-libs/libsndfile minimal
