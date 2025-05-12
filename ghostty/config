@@ -1,0 +1,5 @@
+command = fish
+theme = Builtin Light
+shell-integration = fish
+window-decoration = client
+mouse-scroll-multiplier = 2
