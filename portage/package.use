@@ -44,18 +44,11 @@ net-dns/dnsmasq script
 
 kde-apps/kio-extras samba
 
-# chromium
-net-libs/nodejs inspector
-virtual/rust profiler
-
 # theme
 app-i18n/fcitx-configtool kcm
 
 # doas
 app-admin/doas persist
-
-# nodejs
-net-libs/nodejs npm
 
 # -X
 app-misc/fastfetch -X
