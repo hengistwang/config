@@ -15,6 +15,7 @@ app-eselect/eselect-zig
 
 net-im/telegram-desktop
 media-libs/tg_owt
+net-libs/tdlib
 dev-cpp/ms-gsl
 
 app-text/languagetool
@@ -24,3 +25,6 @@ dev-python/uv
 
 x11-misc/sddm
 dev-go/golangci-lint
+
+gui-libs/gtk
+x11-libs/pango
