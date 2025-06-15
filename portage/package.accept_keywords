@@ -4,11 +4,7 @@ dev-libs/nss
 www-client/firefox
 dev-lang/spidermonkey
 dev-libs/gjs
-sys-kernel/gentoo-kernel-bin
-virtual/dist-kernel
 
-x11-terms/ghostty
-x11-terms/ghostty-terminfo
 sys-libs/ncurses
 dev-lang/zig-bin
 app-eselect/eselect-zig
@@ -23,7 +19,6 @@ app-text/languagetool
 app-shells/fish
 dev-python/uv
 
-x11-misc/sddm
 dev-go/golangci-lint
 
 gui-libs/gtk
