@@ -64,3 +64,4 @@ app-text/texlive-core cjk
 media-libs/libvpx postproc
 net-misc/spice-gtk usbredir
 media-libs/freetype harfbuzz utils
+net-libs/webkit-gtk keyring
