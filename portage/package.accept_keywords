@@ -4,3 +4,7 @@ x11-libs/pango
 
 sys-kernel/gentoo-kernel-bin
 virtual/dist-kernel
+
+dev-util/sh
+app-text/languagetool
+media-video/obs-studio

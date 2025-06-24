@@ -1,7 +1,3 @@
-# Docker
-app-containers/docker btrfs
-app-containers/containerd btrfs
-
 # emacs
 sys-devel/gcc jit lto
 app-editors/emacs -X gtk dynamic-loading jit harfbuzz tree-sitter sqlite json
