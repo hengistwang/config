@@ -1,6 +1,4 @@
 app-shells/fish
-gui-libs/gtk
-x11-libs/pango
 
 sys-kernel/gentoo-kernel-bin
 virtual/dist-kernel
