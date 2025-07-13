@@ -37,7 +37,7 @@
        hl-todo
        indent-guides
        ligatures
-       minimap
+       ;;minimap
        modeline
        nav-flash
        ;;neotree
