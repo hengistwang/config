@@ -76,7 +76,7 @@
 ;; they are implemented.
 
 (setq-default evil-escape-key-sequence "jk")
-(setq doom-font (font-spec :family "IBM Plex Mono" :size 11.0))
+(setq doom-font (font-spec :family "Sarasa Mono SC" :size 11.0))
 (add-hook 'window-setup-hook #'toggle-frame-maximized)
 (after! lsp-haskell
   (setq lsp-haskell-formatting-provider "ormolu"))
