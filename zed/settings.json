@@ -15,17 +15,10 @@
     "metrics": false
   },
   "vim_mode": true,
-  "ui_font_family": "Sarasa Mono SC",
-  "ui_font_size": 14,
-  "buffer_font_family": "Sarasa Mono SC",
-  "buffer_font_size": 14,
-  "buffer_line_height": "comfortable",
   "terminal": {
     "shell": {
       "program": "/usr/bin/fish"
-    },
-    "font_family": "Sarasa Term SC",
-    "font_size": 14
+    }
   },
   "theme": {
     "mode": "system",
