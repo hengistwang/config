@@ -1,0 +1,55 @@
+# emacs
+sys-devel/gcc jit lto
+app-editors/emacs dynamic-loading jit harfbuzz tree-sitter sqlite imagemagick gtk -X
+
+# wireshark
+net-analyzer/wireshark http2 http3 lua lua_single_target_lua5-4
+
+media-libs/mesa vaapi
+
+# mpv
+media-video/mpv vaapi
+
+# xorg-server && sddm
+x11-base/xorg-server -xorg minimal
+x11-misc/sddm -X
+
+# systemd-boot
+sys-apps/systemd boot
+sys-kernel/installkernel systemd systemd-boot dracut
+
+# noto fonts
+media-fonts/noto-emoji icons
+
+# vscode
+app-editors/vscode egl
+
+# okular
+kde-apps/okular djvu epub markdown mobi speech
+
+# qemu
+app-emulation/qemu spice virgl usbredir
+net-dns/dnsmasq script
+
+kde-apps/kio-extras samba
+
+# theme
+app-i18n/fcitx-configtool kcm
+
+# doas
+app-admin/doas persist
+
+media-fonts/nerd-fonts ubuntumono nerdfontssymbolsonly
+
+# misc
+app-text/ghostscript-gpl -l10n_zh-CN
+media-libs/libsndfile minimal
+media-libs/phonon minimal
+net-libs/gnutls tools pkcs11
+media-video/ffmpeg opus vpx vaapi
+x11-libs/libdrm video_cards_radeon
+app-text/texlive-core cjk
+media-libs/libvpx postproc
+net-misc/spice-gtk usbredir
+media-libs/freetype harfbuzz utils
+net-libs/webkit-gtk keyring
