@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=eudic
+Comment=Dictionary
+Exec=env QT_AUTO_SCREEN_SCALE_FACTOR=1 /home/hengist/Tools/eudic.AppImage
+Terminal=false
+Type=Application
+Icon=eudic
+Categories=Utility;
