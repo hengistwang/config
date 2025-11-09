@@ -9,3 +9,7 @@ media-fonts/nerd-fonts
 gui-libs/gtk
 
 media-fonts/noto-emoji
+
+x11-terms/ghostty
+gui-libs/gtk4-layer-shell
+x11-terms/ghostty-terminfo
